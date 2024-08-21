@@ -48,7 +48,6 @@ def definingValues():
 
 range_intervals = 10000
 documents_quantity = 10000000
-insert_many_time = 0
 
 for k in range(1,documents_quantity,range_intervals):
     for i in range(range_intervals):
